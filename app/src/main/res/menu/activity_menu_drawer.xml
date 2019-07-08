@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_neumatico"
+            android:icon="@drawable/ic_iconfinder_tire_172600"
+            android:title="@string/menu_tire" />
+        <item
+            android:id="@+id/nav_camion"
+            android:icon="@drawable/camion"
+            android:title="@string/menu_camion" />
+        <item
+            android:id="@+id/nav_ruler"
+            android:icon="@drawable/ic_iconfinder_2_ruler_4470683"
+            android:title="@string/menu_rules" />
+        <item
+            android:id="@+id/nav_rotation"
+            android:icon="@drawable/rotacion"
+            android:title="@string/menu_rotation" />
+        <item
+            android:id="@+id/nav_lupa"
+            android:icon="@drawable/lupa"
+            android:title="@string/menu_lupa" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_close"
+                android:icon="@drawable/close"
+                android:title="@string/menu_close" />
+        </menu>
+    </item>
+
+</menu>
